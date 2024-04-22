@@ -1,0 +1,10 @@
+QPushButton:checked{
+	font: 14pt;
+	font-weight: bold;
+	border-radius: 12px;
+}
+
+QPushButton{
+	border-radius: 12px;
+	font: 12pt;
+}

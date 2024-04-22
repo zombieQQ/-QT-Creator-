@@ -1,0 +1,9 @@
+QPushButton{
+	color: rgb(102, 102, 102);
+	font: 11pt "Agency FB";
+	border-radius: 12px;
+}
+
+QPushButton:hover{
+	font-weight:bold;
+}

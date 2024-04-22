@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="接口">
+      <UniqueIdentifier>{09894a85-b90e-43c5-9e85-50bdf2a7ff97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\发现音乐">
+      <UniqueIdentifier>{aa1f5b02-394f-4797-a28f-8ee11ac86daa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\发现音乐\歌单">
+      <UniqueIdentifier>{9be3d9d1-861e-42c9-a03a-eedbae9d6b36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\发现音乐\歌单分类">
+      <UniqueIdentifier>{c89b71b1-6360-4d08-b4d6-e3982dcb10b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\发现音乐\歌手">
+      <UniqueIdentifier>{5181d5e8-fc3c-404c-b360-bfbadb3edcf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\发现音乐\个性推荐">
+      <UniqueIdentifier>{2f590dfd-d9b2-4e5f-84d8-c98bed4903b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\发现音乐\排行榜">
+      <UniqueIdentifier>{5c1e76a9-858f-469c-bfb4-ba2d68c5e3d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\发现音乐\专属订制">
+      <UniqueIdentifier>{df3d6a10-2c47-44b3-b834-c116a634df8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\发现音乐\自定义标题栏">
+      <UniqueIdentifier>{2bb421c6-77c7-465d-8101-aad75a29711f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\发现音乐\最新音乐">
+      <UniqueIdentifier>{c7c5af95-9519-4454-860c-753a3257667c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files\发现音乐">
+      <UniqueIdentifier>{cc4f58d3-0768-4885-baa7-2fb64e791dba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\发现音乐">
+      <UniqueIdentifier>{fb0d2b1e-5d0e-4511-b59b-d395b874681c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\发现音乐\歌单">
+      <UniqueIdentifier>{19fdb2f1-23b2-4d61-a177-ce46535cd476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\发现音乐\歌单分类">
+      <UniqueIdentifier>{c2c8253a-4ecf-41a2-a0aa-9fcdd4c8cc83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\发现音乐\歌手">
+      <UniqueIdentifier>{90aca746-d4cf-40c1-8ff4-3a87da8dc101}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\发现音乐\个性推荐">
+      <UniqueIdentifier>{cd7c536f-1810-4e40-836b-bd3daea40ec3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\发现音乐\排行榜">
+      <UniqueIdentifier>{1c299afe-350b-4fa3-a22e-85e78f497eec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\发现音乐\专属订制">
+      <UniqueIdentifier>{50f34a72-842c-4ec7-8e24-4d23848f20c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\发现音乐\自定义标题栏">
+      <UniqueIdentifier>{0d1fa069-f9b8-4595-b4b4-cf9dc5c1d1eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\发现音乐\最新音乐">
+      <UniqueIdentifier>{2d45a233-1dfb-465f-8a87-9297c4685dbe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="MainControl.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="MainControl.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtMoc Include="MainControl.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClCompile Include="MainControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main_control_global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\interface\IMainControl.h">
+      <Filter>接口</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main_control_plugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomTitleBar.cpp">
+      <Filter>Source Files\发现音乐\自定义标题栏</Filter>
+    </ClCompile>
+    <ClCompile Include="recommend_song_list.cpp">
+      <Filter>Source Files\发现音乐\个性推荐</Filter>
+    </ClCompile>
+    <ClCompile Include="exclusive_custom.cpp">
+      <Filter>Source Files\发现音乐\专属订制</Filter>
+    </ClCompile>
+    <ClCompile Include="SongLists.cpp">
+      <Filter>Source Files\发现音乐\歌单</Filter>
+    </ClCompile>
+    <ClCompile Include="SongListsClassify.cpp">
+      <Filter>Source Files\发现音乐\歌单分类</Filter>
+    </ClCompile>
+    <ClCompile Include="RankList.cpp">
+      <Filter>Source Files\发现音乐\排行榜</Filter>
+    </ClCompile>
+    <ClCompile Include="Singer.cpp">
+      <Filter>Source Files\发现音乐\歌手</Filter>
+    </ClCompile>
+    <ClCompile Include="BestNewMusic.cpp">
+      <Filter>Source Files\发现音乐\最新音乐</Filter>
+    </ClCompile>
+    <ClCompile Include="SongListTableWidget.cpp">
+      <Filter>Source Files\发现音乐\最新音乐</Filter>
+    </ClCompile>
+    <ClCompile Include="RecommendSong.cpp">
+      <Filter>Source Files\发现音乐\个性推荐</Filter>
+    </ClCompile>
+    <ClCompile Include="SongsTableWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Peeling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="main_control_plugin.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="CustomTitleBar.h">
+      <Filter>Header Files\发现音乐\自定义标题栏</Filter>
+    </QtMoc>
+    <QtMoc Include="recommend_song_list.h">
+      <Filter>Header Files\发现音乐\个性推荐</Filter>
+    </QtMoc>
+    <QtMoc Include="exclusive_custom.h">
+      <Filter>Header Files\发现音乐\专属订制</Filter>
+    </QtMoc>
+    <QtMoc Include="SongLists.h">
+      <Filter>Header Files\发现音乐\歌单</Filter>
+    </QtMoc>
+    <QtMoc Include="SongListsClassify.h">
+      <Filter>Header Files\发现音乐\歌单分类</Filter>
+    </QtMoc>
+    <QtMoc Include="RankList.h">
+      <Filter>Header Files\发现音乐\排行榜</Filter>
+    </QtMoc>
+    <QtMoc Include="Singer.h">
+      <Filter>Header Files\发现音乐\歌手</Filter>
+    </QtMoc>
+    <QtMoc Include="BestNewMusic.h">
+      <Filter>Header Files\发现音乐\最新音乐</Filter>
+    </QtMoc>
+    <QtMoc Include="SongListTableWidget.h">
+      <Filter>Header Files\发现音乐\最新音乐</Filter>
+    </QtMoc>
+    <QtMoc Include="RecommendSong.h">
+      <Filter>Header Files\发现音乐\个性推荐</Filter>
+    </QtMoc>
+    <QtMoc Include="SongsTableWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Peeling.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="BestNewMusic.ui">
+      <Filter>Form Files\发现音乐</Filter>
+    </QtUic>
+    <QtUic Include="CustomTitleBar.ui">
+      <Filter>Form Files\发现音乐</Filter>
+    </QtUic>
+    <QtUic Include="exclusive_custom.ui">
+      <Filter>Form Files\发现音乐</Filter>
+    </QtUic>
+    <QtUic Include="RankList.ui">
+      <Filter>Form Files\发现音乐</Filter>
+    </QtUic>
+    <QtUic Include="recommend_song_list.ui">
+      <Filter>Form Files\发现音乐</Filter>
+    </QtUic>
+    <QtUic Include="Singer.ui">
+      <Filter>Form Files\发现音乐</Filter>
+    </QtUic>
+    <QtUic Include="SongLists.ui">
+      <Filter>Form Files\发现音乐</Filter>
+    </QtUic>
+    <QtUic Include="SongListsClassify.ui">
+      <Filter>Form Files\发现音乐</Filter>
+    </QtUic>
+    <QtUic Include="RecommendSong.ui">
+      <Filter>Form Files\发现音乐</Filter>
+    </QtUic>
+    <QtUic Include="Peeling.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="left_bar_btn.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="title_bar_red.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="scroll_area.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="song_lists_classify.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="view_all.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SingerClassfiy.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SingerNameBtn.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="NavigationBtn.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="newSongBtns.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

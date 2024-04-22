@@ -1,0 +1,19 @@
+QPushButton{
+	border-radius: 12px;
+	font: 10pt;
+}
+
+QPushButton:hover
+{
+	border-radius: 12px;
+	font: 10pt;
+	background-color: rgb(254, 245, 245);
+	color: rgb(236, 65, 65);
+}
+
+QPushButton:checked{
+	border-radius: 12px;
+	font: 10pt;
+	background-color: rgb(254, 245, 245);
+	color: rgb(236, 65, 65);
+}

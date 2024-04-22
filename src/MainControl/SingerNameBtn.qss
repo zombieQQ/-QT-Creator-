@@ -1,0 +1,5 @@
+QPushButton{
+	border-radius: 12px;
+	font: 11pt "Agency FB";
+	text-align:left;
+}

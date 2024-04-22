@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PlayMusicClass</class>
+ <widget class="QWidget" name="PlayMusicClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>96</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1280</width>
+    <height>96</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>PlayMusic</string>
+  </property>
+  <widget class="QLabel" name="headLabel">
+   <property name="geometry">
+    <rect>
+     <x>15</x>
+     <y>25</y>
+     <width>60</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 127);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="songName">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>30</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;宋体&quot;;
+font-weight: bold;</string>
+   </property>
+   <property name="text">
+    <string>Kyptonite</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="singerName">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>60</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;宋体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Anson Seabra</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="likeBtn">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>30</y>
+     <width>26</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:10px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../res/点赞.png</normaloff>
+     <normalon>../../res/outline _ like.png</normalon>../../res/点赞.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="playMusicBtn">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>10</y>
+     <width>60</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #F5F5F5;
+border-radius:30px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../res/播放音乐/outline _ play.png</normaloff>
+     <normalon>../../res/播放音乐/outline _ pause.png</normalon>
+     <disabledoff>../../res/播放音乐/outline _ play@3x.png</disabledoff>
+     <disabledon>../../res/播放音乐/outline _ play.png</disabledon>
+     <activeoff>../../res/播放音乐/outline _ play.png</activeoff>
+     <activeon>../../res/播放音乐/outline _ pause.png</activeon>
+     <selectedoff>../../res/播放音乐/outline _ play.png</selectedoff>
+     <selectedon>../../res/播放音乐/outline _ pause.png</selectedon>../../res/播放音乐/outline _ play.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progressBar">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>80</y>
+     <width>591</width>
+     <height>2</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QProgressBar {
+    background-color: grey;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 1px;
+}
+QProgressBar::chunk {
+    background-color: red;
+};</string>
+   </property>
+   <property name="value">
+    <number>0</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="startTime">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>72</y>
+     <width>41</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>00:00</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="endTime">
+   <property name="geometry">
+    <rect>
+     <x>980</x>
+     <y>72</y>
+     <width>41</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>00:00</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="lastMusicBtn">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>15</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:15px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../res/播放音乐/outline _ previous.png</normaloff>
+     <disabledoff>../../res/播放音乐/outline _ previous@2x.png</disabledoff>
+     <disabledon>../../res/播放音乐/outline _ previous.png</disabledon>../../res/播放音乐/outline _ previous.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="nextMusicBtn">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>15</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:15px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../res/播放音乐/outline _ next.png</normaloff>
+     <disabledoff>../../res/播放音乐/outline _ next@2x.png</disabledoff>
+     <disabledon>../../res/播放音乐/outline _ next.png</disabledon>../../res/播放音乐/outline _ next.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>7</x>
+     <y>0</y>
+     <width>1271</width>
+     <height>1</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(224, 224, 224);
+border-color: rgb(224, 224, 224);</string>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

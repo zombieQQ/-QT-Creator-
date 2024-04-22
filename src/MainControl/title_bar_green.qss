@@ -1,0 +1,64 @@
+QPushButton#btn_back_{
+	border: none;
+	border-radius: 18px;
+	background-color: rgb(97, 194, 128);
+}
+
+QPushButton#btn_forward_{
+	border: none;
+	border-radius: 18px;
+	background-color: rgb(97, 194, 128);
+}
+
+QPushButton#btn_speech_{
+	border: none;
+	border-radius: 18px;
+	background-color: rgb(97, 194, 128);
+}
+
+QLineEdit { 
+	background-color: rgb(97, 194, 128);
+    border-radius: 20px;
+}
+
+QPushButton#btn_head_{
+	border: none;
+	color: rgb(251, 217, 217);
+}
+
+QPushButton#btn_login_{
+	border: none;
+	color: rgb(251, 217, 217);
+}
+
+QPushButton#btn_vip_{
+	border: none;
+}
+
+QPushButton#btn_skin_{
+	border: none;
+}
+
+QPushButton#btn_setting_{
+	border: none;
+}
+
+QPushButton#btn_msg_{
+	border: none;
+}
+
+QPushButton#btn_mini_{
+	border: none;
+}
+
+QPushButton#btn_min_{
+	border: none;
+}
+
+QPushButton#btn_max_{
+	border: none;
+}
+
+QPushButton#btn_close_{
+	border: none;
+}

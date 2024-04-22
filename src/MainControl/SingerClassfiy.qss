@@ -1,0 +1,18 @@
+QPushButton{
+	border-radius: 12px;
+	font: 11pt "Agency FB";
+	color: rgb(102, 102, 102);
+}
+
+QPushButton:hover{
+	border-radius: 12px;
+	font: 11pt "Agency FB";
+	color: #080808;
+}
+
+QPushButton:checked{
+	border-radius: 12px;
+	font: 11pt "Agency FB";
+	background-color: rgb(254, 245, 245);
+	color: rgb(236, 65, 65);
+}

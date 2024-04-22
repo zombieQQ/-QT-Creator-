@@ -1,0 +1,12 @@
+QPushButton{
+	font: 14pt "Agency FB";
+	border: none;
+	text-align: left;
+}
+
+QPushButton:checked{
+	background-color: #f6f6f7;
+	font: 16pt "Agency FB";
+	font-weight: bold;
+	text-align: left;
+}
