@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FollowWith>
+	<Trend>
+		<HeadPath>/../res/关注/head.png</HeadPath>
+		<UserName>网易云CEO丁磊</UserName>
+		<Describe>这首热情，活力的歌曲感染力好强，真是首百听不厌的经典老歌。曲子一响起来，完全就是70年代人的回忆。</Describe>
+		<PngPath>/../res/关注/2.png</PngPath>
+		<Like>123</Like>
+		<Share>89</Share>
+		<Comment>20</Comment>
+		<Time>1月12日 18:06</Time>
+	</Trend>
+	<Trend>
+		<HeadPath>/../res/关注/head.png</HeadPath>
+		<UserName>网易云CEO丁磊</UserName>
+		<Describe>每年听维也纳新年音乐会真是种享受。优秀的指挥，几十种乐器的合奏，是让人无比震撼的艺术盛宴。在优雅愉快的古典音乐中，好好度过新的一年吧</Describe>
+		<PngPath>/../res/关注/2.png</PngPath>
+		<Like>703</Like>
+		<Share>12</Share>
+		<Comment>187</Comment>
+		<Time>1月9日 18:06</Time>
+	</Trend>
+</FollowWith>

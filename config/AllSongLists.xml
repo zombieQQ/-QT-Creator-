@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SongListsClassify>
+  <全部歌单>
+    <TitlePath>/../res/歌单/全部歌单/title.png</TitlePath>
+    <TitleColor>#777060</TitleColor>
+    <TitleDescirbe1>「凯尔特民谣」来自西欧风情的悠扬之音</TitleDescirbe1>
+    <TitleDescirbe2>传统的凯尔特音乐古老优美，源远流长</TitleDescirbe2>
+    <Png>
+        <SongPath>/../res/歌单/全部歌单/AllSong_1.png</SongPath>
+        <SongDescribe>我走路带风，可以这么形容</SongDescribe>
+    </Png>
+    <Png>
+        <SongPath>/../res/歌单/全部歌单/AllSong_2.png</SongPath>
+        <SongDescribe>蓝调爵士、浓情老酒馆</SongDescribe>
+    </Png>
+    <Png>
+        <SongPath>/../res/歌单/全部歌单/AllSong_3.png</SongPath>
+        <SongDescribe>华语|那些温暖男声听起来总让人心疼</SongDescribe>
+    </Png>
+    <Png>
+        <SongPath>/../res/歌单/全部歌单/AllSong_4.png</SongPath>
+        <SongDescribe>「欧美清新电子」让人无法抗拒的美妙旋律</SongDescribe>
+    </Png>
+  </全部歌单>
+   <华语>
+    <TitlePath>/../res/歌单/华语/title.png</TitlePath>
+    <TitleColor>#74909d</TitleColor>
+    <TitleDescirbe1>华语独立团 | 将温柔塞满黄昏</TitleDescirbe1>
+    <TitleDescirbe2></TitleDescirbe2>
+    <Png>
+        <SongPath>/../res/歌单/华语/AllSong_1.png</SongPath>
+        <SongDescribe>回到华语金色年代</SongDescribe>
+    </Png>
+    <Png>
+        <SongPath>/../res/歌单/华语/AllSong_2.png</SongPath>
+        <SongDescribe>华语私人雷达|最懂你的华语推荐 每日更新35首</SongDescribe>
+    </Png>
+    <Png>
+        <SongPath>/../res/歌单/华语/AllSong_3.png</SongPath>
+        <SongDescribe>2010s华语摇滚|新时代的中国摇滚浪潮</SongDescribe>
+    </Png>
+    <Png>
+        <SongPath>/../res/歌单/华语/AllSong_4.png</SongPath>
+        <SongDescribe>秋日放松听|秋风中的华语节奏</SongDescribe>
+    </Png>
+  </华语>
+</SongListsClassify>

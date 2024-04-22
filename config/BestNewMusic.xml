@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SongListsClassify>
+  <全部>
+    <Song>
+		<PngPath>/../res/最新音乐/全部/Deserve.png</PngPath>
+		<SongName>Deserve</SongName>
+		<SingerName>HOYA</SingerName>
+		<Album>Deserve</Album>
+		<Duration>03:12</Duration>
+	</Song>
+	<Song>
+		<PngPath>/../res/最新音乐/全部/空空（Live）.png</PngPath>
+		<SongName>空空（Live）</SongName>
+		<SingerName>黄丽龄/马嘉祺</SingerName>
+		<Album>我们的歌第五季 第十一期</Album>
+		<Duration>04:06</Duration>
+	</Song>
+	<Song>
+		<PngPath>/../res/最新音乐/全部/成都一日.png</PngPath>
+		<SongName>成都一日</SongName>
+		<SingerName>谢可寅</SingerName>
+		<Album>城市有乐</Album>
+		<Duration>03:25</Duration>
+	</Song>
+	<Song>
+		<PngPath>/../res/最新音乐/全部/小霞（Xiao Xia）.png</PngPath>
+		<SongName>小霞（Xiao Xia）</SongName>
+		<SingerName>小霞</SingerName>
+		<Album>小霞3.0</Album>
+		<Duration>07:17</Duration>
+	</Song>
+	<Song>
+		<PngPath>/../res/最新音乐/全部/骨骼谢幕.png</PngPath>
+		<SongName>骨骼谢幕</SongName>
+		<SingerName>裘德</SingerName>
+		<Album>骨骼谢幕</Album>
+		<Duration>04:57</Duration>
+	</Song>
+  </全部>
+  <华语>
+    <Song>
+		<PngPath>/../res/最新音乐/华语/今天有朵云爱我.png</PngPath>
+		<SongName>今天有朵云爱我</SongName>
+		<SingerName>李宇春</SingerName>
+		<Album>今天有朵云爱我</Album>
+		<Duration>03:47</Duration>
+	</Song>
+	<Song>
+		<PngPath>/../res/最新音乐/华语/李建国.png</PngPath>
+		<SongName>李建国</SongName>
+		<SingerName>汪峰</SingerName>
+		<Album>拾叁</Album>
+		<Duration>04:15</Duration>
+	</Song>
+	<Song>
+		<PngPath>/../res/最新音乐/华语/i love u.png</PngPath>
+		<SongName>i love u</SongName>
+		<SingerName>OB03</SingerName>
+		<Album>弗兰肯斯坦 (DUET)</Album>
+		<Duration>00:00</Duration>
+	</Song>
+	<Song>
+		<PngPath>/../res/最新音乐/华语/此生不换.png</PngPath>
+		<SongName>此生不换</SongName>
+		<SingerName>en</SingerName>
+		<Album>此生不换</Album>
+		<Duration>00:00</Duration>
+	</Song>
+	<Song>
+		<PngPath>/../res/最新音乐/华语/霸王别姬.png</PngPath>
+		<SongName>霸王别姬</SongName>
+		<SingerName>U:NUS</SingerName>
+		<Album>途迷</Album>
+		<Duration>00:00</Duration>
+	</Song>
+  </华语>
+</SongListsClassify>
